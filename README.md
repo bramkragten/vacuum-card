@@ -173,7 +173,7 @@ name:
   - type: entity
 ```
 
-Available part types are `entity`, `device`, `parent_device`, `area`, `floor`, and
+Available part types are `entity`, `device`, `area`, `floor`, and
 `text` (a literal, written as `{type: text, text: 'Downstairs'}`). Parts that
 resolve to nothing are dropped. Leaving `name` out keeps the previous behaviour.
 
